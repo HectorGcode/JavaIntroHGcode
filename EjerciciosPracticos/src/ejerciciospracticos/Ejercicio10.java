@@ -20,7 +20,7 @@ public class Ejercicio10 {
         Scanner leer = new Scanner(System.in);
         System.out.println("Ingrese el limite");
         int limite = leer.nextInt();
-        int suma;
+        int suma=0;
         int num;
 //        for (int i = 0; i < limite; i++) {
 //            System.out.println("ingrese el numero a sumar");
@@ -31,7 +31,7 @@ public class Ejercicio10 {
             System.out.println("ingrese el numero a sumar");
             num = leer.nextInt();
             suma += num;
-        } while (limite>suma);
+        } while (limite>=suma);
         
         
         System.out.println("La suma de los numeros ingresados es "+suma);
